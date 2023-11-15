@@ -59,8 +59,8 @@ app.post("/update", (req, res) => {
   // console.log(req.body)
   console.log(payload)
 
-  const mesurementID = "G-MQCKRF3NKV";
-  const apiSecretKey = "GSNNsjcgRO-F-pLdNOFdpQ";
+  const mesurementID = "G-TSLJKQSFB3";
+  const apiSecretKey = "rRCZXTRsTQKFx-fvygSD3w";
   
   // const noteAttributes = [];
   // Object.keys(attributes).forEach(attr => {
