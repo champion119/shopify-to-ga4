@@ -30,8 +30,6 @@
       };
     });
 
-    console.error("-------------", cookies)
-
     const shopifyId1 = cookies.find((cookie) => cookie.name == "_shopify_y");
 
     attributes["_track_user_shopify_id_1"] = shopifyId1.value;
@@ -214,7 +212,6 @@
   window.dataLayer.push({
     'event': 'user_id',
     'user_id': '{{ customer.id }}',
-    // 'client_id': window.ShopifyAnalytics.lib.trekkie.defaultAttributes.uniqToken,
     'user_type': 'registered',
     'user_phonenumber' : '{{ customer.phone }}',
     'user_email' : '{{ customer.email }}',
