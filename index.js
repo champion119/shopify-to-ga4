@@ -51,7 +51,7 @@ app.post("/update", (req, res) => {
       JSON.stringify(payload)
     )
     .then(function (response) {
-      console.log(response);
+      // console.log(response);
       res.send("updated!");
     })
     .catch(function (err) {

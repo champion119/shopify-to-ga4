@@ -195,7 +195,7 @@
       console.log(err)
     })
 
-    gtag("event", "purchase_2", payload.events[0].params);
+    // gtag("event", "purchase_2", payload.events[0].params);
   }
 
   if (!sessionStorage.getItem('transaction_id') || sessionStorage.getItem('transaction_id') != '{{ checkout.order_name }}') {
